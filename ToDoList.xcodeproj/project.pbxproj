@@ -19,6 +19,7 @@
 		A448DEA518F7EE0D004187CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A448DE8D18F7EE0D004187CE /* UIKit.framework */; };
 		A448DEAD18F7EE0D004187CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A448DEAB18F7EE0D004187CE /* InfoPlist.strings */; };
 		A448DEAF18F7EE0D004187CE /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A448DEAE18F7EE0D004187CE /* ToDoListTests.m */; };
+		A4FB5CEA18FD157300D554E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FB5CE918FD157300D554E4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		A448DEAA18F7EE0D004187CE /* ToDoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListTests-Info.plist"; sourceTree = "<group>"; };
 		A448DEAC18F7EE0D004187CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A448DEAE18F7EE0D004187CE /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		A4FB5CE918FD157300D554E4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		A448DE8F18F7EE0D004187CE /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				A4FB5CE918FD157300D554E4 /* Main.storyboard */,
 				A448DE9818F7EE0D004187CE /* AppDelegate.h */,
 				A448DE9918F7EE0D004187CE /* AppDelegate.m */,
 				A448DE9B18F7EE0D004187CE /* Images.xcassets */,
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4FB5CEA18FD157300D554E4 /* Main.storyboard in Resources */,
 				A448DE9418F7EE0D004187CE /* InfoPlist.strings in Resources */,
 				A448DE9C18F7EE0D004187CE /* Images.xcassets in Resources */,
 			);
@@ -361,6 +365,7 @@
 				GCC_PREFIX_HEADER = "ToDoList/ToDoList-Prefix.pch";
 				INFOPLIST_FILE = "ToDoList/ToDoList-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -374,6 +379,7 @@
 				GCC_PREFIX_HEADER = "ToDoList/ToDoList-Prefix.pch";
 				INFOPLIST_FILE = "ToDoList/ToDoList-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -437,6 +443,7 @@
 				A448DEB418F7EE0D004187CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A448DEB518F7EE0D004187CE /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +452,7 @@
 				A448DEB718F7EE0D004187CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
